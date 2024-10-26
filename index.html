@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navigation">
+            <div class="logo">Grocery <span>Store</span></div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="app.html">App</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="signin.html">signin</a></li>
+            </ul>
+
+            <!-- Right Navigation (Icons) -->
+            <div class="right-nav">
+                <a href="#" class="like">
+                    <img src="heart.svg" alt="Like Icon">
+                    <span>2</span>
+                </a>
+                <a href="#" class="cart">
+                    <img src="cart_shopping.svg" alt="Cart Icon">
+                    <span>2</span>
+                </a>
+                <a href="#" class="profile">
+                    <img src="user.svg" alt="Profile Icon">
+                    <span>1</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+<!--==Search-banner=======================================-->
+<section id="search-banner">
+
+    <!--bg--------->
+    <img alt="bg" class="bg-1" src="https://i.imgur.com/h8pXo1s.png">
+
+    <img alt="bg" class="bg-1_rev" src="https://i.imgur.com/h8pXo1s.png">
+
+    <img alt="bg-2" class="bg-2" src="https://i.imgur.com/2smuQIz.png">
+
+    <!--text------->
+    <div class="search-banner-text">
+
+        <h1>
+            
+            Order Your daily Groceries
+        
+        </h1>
+
+        <strong>
+            
+            #Free Delivery
+        
+        </strong>
+
+        <!--search-box------>
+        <form action="" class="search-box">
+
+            <!--icon------>
+            <i class="fas fa-search"></i>
+
+            <!--input----->
+            <input type="text" class="search-input" placeholder="Search" name="search" size = "80px" required>
+
+            <!--btn------->
+            <input type="submit" class="search-btn" value="Search">
+
+        </form>
+
+        <br>
+
+        <h3>
+
+            <a href = 'Best Deals HTML.html' style = 'color: #40aa54'>
+
+                Click here to learn about today's best deals
+
+            </a>
+
+        </h3>
+
+    </div>
+
+</section>
+
+    <!-- Category Section -->
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+
+        <div class="category-container">
+            <!-- Category Box -->
+            <a class="category-box" href="#">
+                <img alt="Fruits" src="https://i.postimg.cc/pX4ptbfd/6.png">
+                <span>Fruits</span>
+            </a>
+            <!-- Category Box -->
+            <a class="category-box" href="#">
+                <img alt="Vegetables" src="https://i.postimg.cc/8ky7trsM/5.png">
+                <span>Vegetables</span>
+            </a>
+            <!-- Category Box -->
+            <a class="category-box" href="#">
+                <img alt="Dry Fruits" src="https://i.postimg.cc/zvfVqq2y/1.png">
+                <span>Dry Fruits</span>
+            </a>
+            <!-- Category Box -->
+            <a class="category-box" href="#">
+                <img alt="Dairy Products" src="https://i.postimg.cc/k4s2r2sr/3.png">
+                <span>Dairy Products</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Popular Products Section -->
+    <section id="popular-product">
+        <div class="product-heading">
+            <h3>Popular Products</h3>
+            <span>All</span>
+        </div>
+
+        <div class="product-container">
+            <!-- Example Product Box -->
+            <div class="product-box">
+                <img alt="Apple" src="https://i.imgur.com/vUJ2JKU.png">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 100</span>
+
+                <!-- Add to Cart Button -->
+                <a href="#" class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+                </a>
+
+                <!-- Like Button -->
+                <a class="like-btn">
+                    <i class="fa-solid fa-heart"></i>
+                </a>
+            </div>
+
+            <!-- More products can be added here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <!-- Social Links -->
+            <div class="footer-social">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=en-in"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="footer-links">
+                <strong>Product</strong>
+                <ul>
+                    <li><a href="#">Grocery</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">New</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
